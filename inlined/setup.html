@@ -1,0 +1,942 @@
+<!--
+Karis Nemik's Manifesto Firware
+Created by Diego J. Arevalo.
+2023 v 1.1
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <title>Nemik's Manifesto Setup by the.rebel.agent</title>
+    <style>
+	/*
+Karis Nemik's Manifesto Firware
+Created by Diego J. Arevalo.
+2023 v 1.1
+*/
+
+
+
+body {
+    color: rgb(145, 240, 249);
+    font-family: Aurebesh;
+    font-size: 50px;
+    margin: 0px;
+    background-color: black;
+}
+
+.SpanSetupLabel {
+    display: flex;
+    vertical-align: middle;
+    height: 55px;
+}
+
+.SpanLabel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    vertical-align: top;
+    height: 30px;
+    display: flex;
+    color: gainsboro;
+}
+
+a:hover {
+    color: rgb(145, 240, 249);
+    font-weight: 600;
+}
+
+a:link {
+    color: rgb(145, 240, 249);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(145, 240, 249);
+    text-decoration: none;
+}
+
+.TableThinWindow {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+.TableThinWindowCell {
+    height: 60px;
+}
+
+.TableThinWindowCellSeparator {
+    height: 10px;
+}
+
+.TableThinWindowCellDown {
+    background: black;
+    height: 60px;
+}
+
+.TableManifestoText {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 700px;
+}
+
+.TableManifestoMarqueeCell {
+    color: rgb(145, 240, 249);
+    height: 100px;
+    font-size: 50px;
+    width: 588px;
+    line-height: 70px;
+}
+
+.ManifestoMarqueeText {
+    height: 700px;
+}
+
+.TableManifestoTextCell {
+    padding-top: 30px;
+    vertical-align: top;
+    width: 121px;
+}
+
+.TableZoomCell {
+    vertical-align: top;
+}
+
+.TableManifestoEmptyTextCell {
+    width: 10px;
+}
+
+.TableSymbolA {
+    padding: 20px;
+    width: 70px;
+    height: 240px;
+    background: rgb(145, 240, 249);
+    border-radius: 10px;
+}
+
+.TableSymbolB {
+    border-spacing: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    width: 59px;
+    height: 199px;
+    background: rgb(145, 240, 249);
+    border-radius: 10px;
+}
+
+.TableSymbolCell {
+    background: black;
+}
+
+.DivManifestoOffset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 0x;
+}
+
+.DivSetupSeparator {
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 50px;
+}
+
+.DivManifestoSeparator {
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 105px;
+}
+
+.TableSetup {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+input {
+    font-size: 40px;
+    font-family: Aurebesh;
+    width: 250px;
+    background-color: whitesmoke;
+}
+
+select,
+option {
+    font-size: 40px;
+    font-family: Aurebesh;
+    width: 250px;
+    background-color: whitesmoke;
+}
+
+#bars {
+    position: relative;
+    bottom: -34px;
+}
+
+.bar {
+    background: rgb(145, 240, 249);
+    bottom: 0px;
+    height: 0px;
+    position: absolute;
+    width: 15px;
+    animation: sound 500ms infinite alternate;
+}
+
+#barsDown {
+    position: relative;
+    bottom: -34px;
+}
+
+.barDown {
+    background: black;
+    bottom: 0px;
+    height: 0px;
+    position: absolute;
+    width: 15px;
+    animation: sound 500ms infinite alternate;
+}
+
+@keyframes sound {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 65px;
+    }
+}
+
+.barDown:nth-child(1) {
+    left: 0px;
+    animation-duration: 250ms;
+}
+
+.barDown:nth-child(2) {
+    left: 19px;
+    animation-duration: 330ms;
+}
+
+.barDown:nth-child(3) {
+    left: 38px;
+    animation-duration: 121ms;
+}
+
+.barDown:nth-child(4) {
+    left: 57px;
+    animation-duration: 200ms;
+}
+
+.barDown:nth-child(5) {
+    left: 76px;
+    animation-duration: 400ms;
+}
+
+.barDown:nth-child(6) {
+    left: 95px;
+    animation-duration: 190ms;
+}
+
+.barDown:nth-child(7) {
+    left: 114px;
+    animation-duration: 210ms;
+}
+
+.barDown:nth-child(8) {
+    left: 133px;
+    animation-duration: 289ms;
+}
+
+.barDown:nth-child(9) {
+    left: 152px;
+    animation-duration: 330ms;
+}
+
+.barDown:nth-child(10) {
+    left: 171px;
+    animation-duration: 150ms;
+}
+
+.barDown:nth-child(11) {
+    left: 190px;
+    animation-duration: 174ms;
+}
+
+.barDown:nth-child(12) {
+    left: 209px;
+    animation-duration: 220ms;
+}
+
+.barDown:nth-child(13) {
+    left: 228px;
+    animation-duration: 245ms;
+}
+
+.barDown:nth-child(14) {
+    left: 247px;
+    animation-duration: 258ms;
+}
+
+.barDown:nth-child(15) {
+    left: 266px;
+    animation-duration: 100ms;
+}
+
+.barDown:nth-child(16) {
+    left: 285px;
+    animation-duration: 227ms;
+}
+
+.barDown:nth-child(17) {
+    left: 304px;
+    animation-duration: 315ms;
+}
+
+.barDown:nth-child(18) {
+    left: 323px;
+    animation-duration: 419ms;
+}
+
+.barDown:nth-child(19) {
+    left: 342px;
+    animation-duration: 280ms;
+}
+
+.barDown:nth-child(20) {
+    left: 361px;
+    animation-duration: 345ms;
+}
+
+.barDown:nth-child(21) {
+    left: 380px;
+    animation-duration: 487ms;
+}
+
+.barDown:nth-child(22) {
+    left: 399px;
+    animation-duration: 342ms;
+}
+
+.barDown:nth-child(23) {
+    left: 418px;
+    animation-duration: 256ms;
+}
+
+.barDown:nth-child(24) {
+    left: 437px;
+    animation-duration: 287ms;
+}
+
+.barDown:nth-child(25) {
+    left: 456px;
+    animation-duration: 315ms;
+}
+
+.barDown:nth-child(26) {
+    left: 475px;
+    animation-duration: 223ms;
+}
+
+.barDown:nth-child(27) {
+    left: 494px;
+    animation-duration: 112ms;
+}
+
+.barDown:nth-child(28) {
+    left: 513px;
+    animation-duration: 456ms;
+}
+
+.barDown:nth-child(29) {
+    left: 532px;
+    animation-duration: 122ms;
+}
+
+.barDown:nth-child(30) {
+    left: 551px;
+    animation-duration: 217ms;
+}
+
+.barDown:nth-child(31) {
+    left: 570px;
+    animation-duration: 322ms;
+}
+
+.barDown:nth-child(32) {
+    left: 589px;
+    animation-duration: 225ms;
+}
+
+.barDown:nth-child(33) {
+    left: 608px;
+    animation-duration: 142ms;
+}
+
+.barDown:nth-child(34) {
+    left: 627px;
+    animation-duration: 268ms;
+}
+
+.barDown:nth-child(35) {
+    left: 646px;
+    animation-duration: 319ms;
+}
+
+.barDown:nth-child(36) {
+    left: 665px;
+    animation-duration: 287ms;
+}
+
+.barDown:nth-child(37) {
+    left: 684px;
+    animation-duration: 133ms;
+}
+
+.barDown:nth-child(38) {
+    left: 703px;
+    animation-duration: 145ms;
+}
+
+.barDown:nth-child(39) {
+    left: 722px;
+    animation-duration: 320ms;
+}
+
+.barDown:nth-child(40) {
+    left: 741px;
+    animation-duration: 342ms;
+}
+
+.barDown:nth-child(41) {
+    left: 760px;
+    animation-duration: 435ms;
+}
+
+.barDown:nth-child(42) {
+    left: 779px;
+    animation-duration: 269ms;
+}
+
+.barDown:nth-child(43) {
+    left: 798px;
+    animation-duration: 319ms;
+}
+
+.barDown:nth-child(44) {
+    left: 817px;
+    animation-duration: 217ms;
+}
+
+.barDown:nth-child(45) {
+    left: 836px;
+    animation-duration: 260ms;
+}
+
+.bar:nth-child(1) {
+    left: 0px;
+    animation-duration: 330ms;
+}
+
+.bar:nth-child(2) {
+    left: 19px;
+    animation-duration: 240ms;
+}
+
+.bar:nth-child(3) {
+    left: 38px;
+    animation-duration: 231ms;
+}
+
+.bar:nth-child(4) {
+    left: 57px;
+    animation-duration: 158ms;
+}
+
+.bar:nth-child(5) {
+    left: 76px;
+    animation-duration: 214ms;
+}
+
+.bar:nth-child(6) {
+    left: 95px;
+    animation-duration: 327ms;
+}
+
+.bar:nth-child(7) {
+    left: 114px;
+    animation-duration: 341ms;
+}
+
+.bar:nth-child(8) {
+    left: 133px;
+    animation-duration: 419ms;
+}
+
+.bar:nth-child(9) {
+    left: 152px;
+    animation-duration: 487ms;
+}
+
+.bar:nth-child(10) {
+    left: 171px;
+    animation-duration: 242ms;
+}
+
+.bar:nth-child(11) {
+    left: 190px;
+    animation-duration: 174ms;
+}
+
+.bar:nth-child(12) {
+    left: 209px;
+    animation-duration: 320ms;
+}
+
+.bar:nth-child(13) {
+    left: 228px;
+    animation-duration: 207ms;
+}
+
+.bar:nth-child(14) {
+    left: 247px;
+    animation-duration: 458ms;
+}
+
+.bar:nth-child(15) {
+    left: 266px;
+    animation-duration: 200ms;
+}
+
+.bar:nth-child(16) {
+    left: 285px;
+    animation-duration: 227ms;
+}
+
+.bar:nth-child(17) {
+    left: 304px;
+    animation-duration: 141ms;
+}
+
+.bar:nth-child(18) {
+    left: 323px;
+    animation-duration: 319ms;
+}
+
+.bar:nth-child(19) {
+    left: 342px;
+    animation-duration: 180ms;
+}
+
+.bar:nth-child(20) {
+    left: 361px;
+    animation-duration: 242ms;
+}
+
+.bar:nth-child(21) {
+    left: 380px;
+    animation-duration: 187ms;
+}
+
+.bar:nth-child(22) {
+    left: 399px;
+    animation-duration: 242ms;
+}
+
+.bar:nth-child(23) {
+    left: 418px;
+    animation-duration: 462ms;
+}
+
+.bar:nth-child(24) {
+    left: 437px;
+    animation-duration: 267ms;
+}
+
+.bar:nth-child(25) {
+    left: 456px;
+    animation-duration: 342ms;
+}
+
+.bar:nth-child(26) {
+    left: 475px;
+    animation-duration: 223ms;
+}
+
+.bar:nth-child(27) {
+    left: 494px;
+    animation-duration: 242ms;
+}
+
+.bar:nth-child(28) {
+    left: 513px;
+    animation-duration: 133ms;
+}
+
+.bar:nth-child(29) {
+    left: 532px;
+    animation-duration: 422ms;
+}
+
+.bar:nth-child(30) {
+    left: 551px;
+    animation-duration: 237ms;
+}
+
+.bar:nth-child(31) {
+    left: 570px;
+    animation-duration: 132ms;
+}
+
+.bar:nth-child(32) {
+    left: 589px;
+    animation-duration: 215ms;
+}
+
+.bar:nth-child(33) {
+    left: 608px;
+    animation-duration: 342ms;
+}
+
+.bar:nth-child(34) {
+    left: 627px;
+    animation-duration: 168ms;
+}
+
+.bar:nth-child(35) {
+    left: 646px;
+    animation-duration: 219ms;
+}
+
+.bar:nth-child(36) {
+    left: 665px;
+    animation-duration: 327ms;
+}
+
+.bar:nth-child(37) {
+    left: 684px;
+    animation-duration: 423ms;
+}
+
+.bar:nth-child(38) {
+    left: 703px;
+    animation-duration: 222ms;
+}
+
+.bar:nth-child(39) {
+    left: 722px;
+    animation-duration: 300ms;
+}
+
+.bar:nth-child(40) {
+    left: 741px;
+    animation-duration: 212ms;
+}
+
+.bar:nth-child(41) {
+    left: 760px;
+    animation-duration: 135ms;
+}
+
+.bar:nth-child(42) {
+    left: 779px;
+    animation-duration: 215ms;
+}
+
+.bar:nth-child(43) {
+    left: 798px;
+    animation-duration: 319ms;
+}
+
+.bar:nth-child(44) {
+    left: 817px;
+    animation-duration: 237ms;
+}
+
+.bar:nth-child(45) {
+    left: 836px;
+    animation-duration: 150ms;
+}
+	</style>
+    <script>
+	/*
+Karis Nemik's Manifesto Firware
+Created by Diego J. Arevalo.
+2023 v 1.1
+*/
+var _initialized = false;
+var _running = false;
+
+const offsetCookieName = 'offset';
+const offsetDefaultValue = 100;
+
+var _zoomValue = 100;
+const zoomCookieName = 'zoom';
+const zoomDefaultValue = 100;
+const zoomMaxValue = 195;
+const zoomMinValue = 5;
+const zoomIncrement = 3;
+
+const AudioLanguage = {
+    English: 0,
+    Spanish: 1,
+}
+var _audioLanguage = "";
+const audioLanguageDefaultValue = AudioLanguage.English;
+const englishAudioID = "English.mp3";
+const spanishAudioID = "Spanish.mp3";
+const audioLanguageCookieName = 'audioLanguage';
+
+function setup() {
+    _initialized = true;
+    setupZoom();
+    setupDivManifestoOffset();
+    createBars('bars', 'bar');
+    createBars('barsDown', 'barDown');
+    setupTableSymbol('black');
+    document.getElementById('ManifestoMarqueeText').style.color = 'black';
+    getAudioLanguage();
+    setupAudioLanguage();
+    pause();
+}
+
+function createBars(divTagName, innerDivTagName) {
+    let divBars = document.getElementById(divTagName);
+    for (let index = 0; index < 45; ++index) {
+        let divBar = document.createElement("div");
+        divBar.className = innerDivTagName;
+        divBars.appendChild(divBar);
+    }
+}
+
+function setupAudioLanguage() {
+    let url = "audio" + getAudioLanguageID();
+    nemiksManifestoAudioSource = document.getElementById('NemiksManifestoAudioSource');
+    nemiksManifestoAudioSource.src = url;
+    nemiksManifestoAudio = document.getElementById('NemiksManifestoAudio');
+    nemiksManifestoAudio.load();
+}
+
+function getAudioLanguageID() {
+    let audioLanguageID;
+    if (_audioLanguage == AudioLanguage.English) {
+        audioLanguageID = englishAudioID;
+    }
+    else if (_audioLanguage == AudioLanguage.Spanish) {
+        audioLanguageID = spanishAudioID;
+    }
+    return audioLanguageID;
+}
+
+function pause() {
+    stopAnimation();
+    document.getElementById('NemiksManifestoAudio').pause();
+}
+
+function setupTableSymbol(backgroundColor) {
+    let tableSymbol = document.getElementById('TableSymbolA');
+    tableSymbol.style.backgroundColor = backgroundColor;
+    tableSymbol = document.getElementById('TableSymbolB');
+    tableSymbol.style.backgroundColor = backgroundColor;
+}
+
+function setupDivManifestoOffset() {
+    let divManifestoOffset = document.getElementById('DivManifestoOffset');
+    offsetValue = getOffset();
+    divManifestoOffset.style.marginTop = offsetValue + "px";
+}
+
+function startStop() {
+    if (!_running) { start(); }
+    else { pause(); }
+}
+
+function start() {
+    let color = 'rgb(145, 240, 249)';
+    let manifestoMarqueeText = document.getElementById('ManifestoMarqueeText');
+    manifestoMarqueeText.style.color = color;
+    manifestoMarqueeText.start();
+    document.getElementById('NemiksManifestoAudio').play();
+    if (!_initialized)
+        startAnimation();
+    else
+        setTimeout(startAnimation, 500);
+    setupTableSymbol(color);
+    _running = true;
+    _initialized = false;
+}
+
+function startAnimation() {
+    let color = 'rgb(145, 240, 249)';
+    document.getElementById('TableThinWindowCellDown').style.backgroundColor = color;
+    let bars = document.getElementsByClassName("bars");
+    for (let index = 0; index < bars.length; ++index) {
+        bars[index].style.display = 'block';
+    }
+}
+
+function stopAnimation() {
+    document.getElementById('ManifestoMarqueeText').stop();
+    document.getElementById('TableThinWindowCellDown').style.backgroundColor = 'black';
+    let bars = document.getElementsByClassName("bars");
+    for (let index = 0; index < bars.length; ++index) {
+        bars[index].style.display = 'none';
+    }
+    _running = false;
+}
+
+function reset() {
+    if (!_running) { window.location.reload(); }
+}
+
+function setupZoom() {
+    _zoomValue = getZoom();
+    if (_zoomValue > zoomMaxValue) { _zoomValue = zoomMaxValue; }
+    if (_zoomValue < zoomMinValue) { _zoomValue = zoomMinValue; }
+    setZoomValue();
+}
+
+function getZoom() {
+    let defaultZoomValue = zoomDefaultValue;
+    let zoomValue = getCookie(zoomCookieName);
+    if (zoomValue === "") { zoomValue = defaultZoomValue; }
+    return zoomValue;
+}
+
+function zoomOut() {
+    _zoomValue += zoomIncrement;
+    if (_zoomValue > zoomMaxValue) { _zoomValue = zoomMaxValue; }
+    setZoomValue();
+    saveZoom();
+}
+
+function zoomIn() {
+    _zoomValue -= zoomIncrement;
+    if (_zoomValue < zoomMinValue) { _zoomValue = zoomMinValue; }
+    setZoomValue();
+    saveZoom();
+}
+
+function setZoomValue() {
+    let zoomValue = _zoomValue + "%";
+    document.getElementById('zoom').innerText = zoomValue;
+    document.body.style.zoom = zoomValue;
+}
+
+function saveZoom() { setCookie(zoomCookieName, _zoomValue, 365); }
+
+function loadSetup() {
+    loadOffsetSetup();
+    loadAudioLanguageSetup();
+}
+
+function loadOffsetSetup() {
+    let offsetValue = getOffset();
+    let offsetInput = document.getElementById(offsetCookieName);
+    offsetInput.value = offsetValue;
+}
+
+function saveOffset() {
+    let offsetInput = document.getElementById(offsetCookieName);
+    let offsetValue = offsetInput.value;
+    setCookie(offsetCookieName, offsetValue, 365);
+}
+
+function resetOffset() {
+    let offsetInput = document.getElementById(offsetCookieName);
+    offsetInput.value = offsetDefaultValue;
+    setCookie(offsetCookieName, offsetDefaultValue, 365);
+}
+
+function getOffset() {
+    let defaultOffsetValue = offsetDefaultValue;
+    let offsetValue = getCookie(offsetCookieName);
+    if (offsetValue === "") { offsetValue = defaultOffsetValue; }
+    return offsetValue;
+}
+
+function loadAudioLanguageSetup() {
+    getAudioLanguage();
+    let audioLanguageSelect = document.getElementById(audioLanguageCookieName);
+    audioLanguageSelect.value = _audioLanguage;
+}
+
+function getAudioLanguage() {
+    _audioLanguage = getCookie(audioLanguageCookieName);
+    if (_audioLanguage === "") { _audioLanguage = AudioLanguage.English; }
+}
+
+function saveAudioLanguage() {
+    let audioLanguageSelect = document.getElementById(audioLanguageCookieName);
+    _audioLanguage = audioLanguageSelect.value;
+    setCookie(audioLanguageCookieName, _audioLanguage, 365);
+}
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let list = decodedCookie.split(';');
+    for (let index = 0; index < list.length; index++) {
+        let char = list[index];
+        while (char.charAt(0) == ' ') {
+            char = char.substring(1);
+        }
+        if (char.indexOf(name) == 0) {
+            return char.substring(name.length, char.length);
+        }
+    }
+    return "";
+}
+
+function setCookie(cname, cvalue, exdays) {
+    const date = new Date();
+    date.setTime(date.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    let expires = "expires=" + date.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+	</script>
+</head>
+
+<body id="body" onload="loadSetup();">
+    <div class="DivSetupSeparator"></div>
+    <table class="TableSetup">
+        <tr>
+            <td>
+                <span class="SpanSetupLabel">Offset Value [px]: </span>
+                <span class="SpanLabel">Offset Value [px]:</span>
+                <input id="offset" type="number">
+                <input type="button" value="Save" onclick="saveOffset();">
+                <input type="button" value="Reset" onclick="resetOffset();">
+            </td>
+        </tr>
+    </table>
+    <div class="DivSetupSeparator"></div>
+    <table class="TableSetup">
+        <tr>
+            <td>
+                <span class="SpanSetupLabel">Language:</span>
+                <span class="SpanLabel">Language:</span>
+                <select id="audioLanguage">
+                    <option value="0">English</option>
+                    <option value="1">Spanish</option>
+                </select>
+                <input type="button" value="Save" onclick="saveAudioLanguage();">
+            </td>
+        </tr>
+    </table>
+    <div class="DivSetupSeparator"></div>
+    <div class="DivSetupSeparator"><a href="index.html">Return to Manifesto</a><span class="SpanLabel"></span></div>
+</body>
+
+</html>
