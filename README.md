@@ -1,5 +1,5 @@
 # NemikManifesto
-Portable fork of Nemik's Manifesto firmware by therebelagent
+Portable fork of Nemik's Manifesto firmware by the.rebel.agent
 
 Originally developed by The.Rebel.Agent on the RPF - https://www.therpf.com/forums/threads/nemik%E2%80%99s-manifesto-andor.349301/post-5393276
 
