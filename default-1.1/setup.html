@@ -1,0 +1,47 @@
+<!--
+Karis Nemik's Manifesto Firware
+Created by Diego J. Arevalo.
+2023 v 1.1
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <title>Nemik's Manifesto Setup by the.rebel.agent</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body id="body" onload="loadSetup();">
+    <div class="DivSetupSeparator"></div>
+    <table class="TableSetup">
+        <tr>
+            <td>
+                <span class="SpanSetupLabel">Offset Value [px]: </span>
+                <span class="SpanLabel">Offset Value [px]:</span>
+                <input id="offset" type="number">
+                <input type="button" value="Save" onclick="saveOffset();">
+                <input type="button" value="Reset" onclick="resetOffset();">
+            </td>
+        </tr>
+    </table>
+    <div class="DivSetupSeparator"></div>
+    <table class="TableSetup">
+        <tr>
+            <td>
+                <span class="SpanSetupLabel">Language:</span>
+                <span class="SpanLabel">Language:</span>
+                <select id="audioLanguage">
+                    <option value="0">English</option>
+                    <option value="1">Spanish</option>
+                </select>
+                <input type="button" value="Save" onclick="saveAudioLanguage();">
+            </td>
+        </tr>
+    </table>
+    <div class="DivSetupSeparator"></div>
+    <div class="DivSetupSeparator"><a href="index.html">Nemik's Manifesto</a><span class="SpanLabel">Nemik's Manifesto</span></div>
+</body>
+
+</html>
