@@ -5,7 +5,7 @@ Originally developed by The.Rebel.Agent on the RPF - https://www.therpf.com/foru
 
 Portable version made for running on an android phone via a local web server; allows for operation on a device in airplane mode to save battery and for use when internet connection is not available.
 
-Default version is the 1.1 firmware created by the.rebel.agent
+Default version is the 1.1 firmware created by the.rebel.agent, made offline by caching all files locally and adjusting source to point to the local audio files
 
 Inlined version is my fork with additional changes and new features:
 
